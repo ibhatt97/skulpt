@@ -1,0 +1,27 @@
+num = input("Enter  number: ")
+
+largest = int(num)
+smallest = int(num)
+
+array = []
+array.append(num)
+
+while True:
+    num2 = input("Enter a number: ")
+	  if num2 = "done":
+        print("Invalid Input")
+        break
+    else:
+        array.append(int(num2))
+
+for i in array:
+    if i>largest:
+        largest = i
+
+
+for i in array:
+    if i<smallest:
+        smallest = i
+
+print("Maximum is ", largest)
+print("Minimum is ",smallest)
